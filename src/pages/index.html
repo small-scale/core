@@ -1,57 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-  <title>small scale.</title>
+  <title>Alternate timeline brackets</title>
   <meta charset='utf-8'>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
-  <script src="https://kit.fontawesome.com/4e2f940d4d.js"></script>
   <link rel="shortcut icon" href="static/boaticon.png" type="image/x-icon">
-  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet"> 
   <style>
-.montserrat{
-    font-family: 'Montserrat', sans-serif;
-}
-@font-face {
-    font-family: 'League Spartan';
-    src: url('static/fonts/leaguespartan-bold.eot');
-    src: url('static/fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
-         url('static/fonts/leaguespartan-bold.woff2') format('woff2'),
-         url('static/fonts/leaguespartan-bold.woff') format('woff'),
-         url('static/fonts/leaguespartan-bold.ttf') format('truetype'),
-         url('static/fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
-    font-weight: bold;
-    font-style: normal;
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    html { font-family: 'Inter', sans-serif; }
+ 
+    .wm{
+      width: 12rem;
+    }
 
-}
-@font-face {
-  font-family: 'League Spartan Variable';
-  src: url('static/fonts/LeagueSpartanVariable.woff2') format('woff2-variations'); 
-  font-weight: 200 900;
-}
-@font-face {
-    font-family: 'League Mono';
-    src: url('static/fonts/LeagueMono-Regular.eot');
-    src: url('static/fonts/LeagueMono-Regular.eot?#iefix') format('embedded-opentype'),
-         url('static/fonts/LeagueMono-Regular.woff2') format('woff2'),
-         url('static/fonts/LeagueMono-Regular.woff') format('woff'),
-         url('static/fonts/LeagueMono-Regular.ttf') format('truetype'),
-         url('static/fonts/LeagueMono-Regular.svg#league_spartanbold') format('svg');
-    font-style: normal;
-
-}
-.spvar{
-  font-family: 'League Spartan Variable', sans-serif;
-
-}
-.spartan{
-    font-family: 'League Spartan', sans-serif;
-}
-.mono{
-  font-family: 'League Mono', sans-serif;
-
-}
 </style>
 
 <script>
@@ -84,5 +46,19 @@
       
   </body>
   <script type="application/javascript" src="index.js"></script>
-
+  <!-- Fathom - simple website analytics - https://usefathom.com -->
+<script>
+  (function(f, a, t, h, o, m){
+  a[h]=a[h]||function(){
+  (a[h].q=a[h].q||[]).push(arguments)
+  };
+  o=f.createElement('script'),
+  m=f.getElementsByTagName('script')[0];
+  o.async=1; o.src=t; o.id='fathom-script';
+  m.parentNode.insertBefore(o,m)
+  })(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
+  fathom('set', 'siteId', 'GDPIYTFS');
+  fathom('trackPageview');
+  </script>
+  <!-- / Fathom -->
 </html>
